@@ -2,7 +2,6 @@
 
 # asdf-tinygo [![Build](https://github.com/schmir/asdf-tinygo/actions/workflows/build.yml/badge.svg)](https://github.com/schmir/asdf-tinygo/actions/workflows/build.yml) [![Lint](https://github.com/schmir/asdf-tinygo/actions/workflows/lint.yml/badge.svg)](https://github.com/schmir/asdf-tinygo/actions/workflows/lint.yml)
 
-
 [tinygo](https://tinygo.org/) plugin for the [asdf version manager](https://asdf-vm.com).
 
 </div>
@@ -18,7 +17,6 @@
 # Dependencies
 
 - `bash`, `curl`, `tar`: generic POSIX utilities.
-- `SOME_ENV_VAR`: set this environment variable in your shell config to load the correct version of tool x.
 
 # Install
 
