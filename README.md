@@ -23,8 +23,6 @@
 Plugin:
 
 ```shell
-asdf plugin add tinygo
-# or
 asdf plugin add tinygo https://github.com/schmir/asdf-tinygo.git
 ```
 
@@ -46,6 +44,17 @@ tinygo version
 
 Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on how to
 install & manage versions.
+
+wasm-opt:
+wasm-opt binary is no longer included in the release bundle. Please use
+https://github.com/birros/asdf-binaryen.git:
+
+```shell
+asdf plugin add binaryen https://github.com/birros/asdf-binaryen.git
+asdf install binaryen latest
+asdf local binaryen latest
+wasm-opt --version
+```
 
 # Contributing
 
